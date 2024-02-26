@@ -5,7 +5,7 @@ main:
     conference_short: CGF
     conference: Computer Graphics Forum (Eurographics), 2024.
     pdf: https://repo-sam.inria.fr/fungraph/lighting-3d-generative-cars/lighting_3D_generative_cars.pdf
-    code: 
+    code: https://github.com/graphdeco-inria/lighting-3d-generative-cars
     page: https://repo-sam.inria.fr/fungraph/lighting-3d-generative-cars
     bibtex:
     image: ./assets/img/teaser_2024_gancars.png
