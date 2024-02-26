@@ -4,7 +4,7 @@ main:
     authors: <strong>N. Violante</strong>, A. Gauthier, S. Diolatzis, T. Leimkühler, G. Drettakis
     conference_short: CGF
     conference: Computer Graphics Forum (Eurographics), 2024.
-    pdf: 
+    pdf: https://repo-sam.inria.fr/fungraph/lighting-3d-generative-cars/lighting_3D_generative_cars.pdf
     code: 
     page: https://repo-sam.inria.fr/fungraph/lighting-3d-generative-cars
     bibtex:
