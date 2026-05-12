@@ -53,6 +53,14 @@
             border-radius: 4px;
             border: 1px solid #e5e7eb;
         }
+        .pub-thumbnail-padded {
+            width: 120px;
+            height: 120px;
+            object-fit: contain;
+            background: white;
+            border-radius: 4px;
+            border: 1px solid #e5e7eb;
+        }
 
         /* Responsive styles */
         @media (max-width: 768px) {
@@ -172,6 +180,36 @@
         <section id="research" class="section">
             <h2 class="text-3xl font-bold text-gray-800 mb-6 pb-2 border-b border-emerald-200">Research</h2>
             <div id="publications-container" class="space-y-6">
+                <!-- Publication 2 -->
+                <div class="publication-card bg-white p-6 rounded-lg shadow-md border border-gray-100 flex flex-col md:flex-row gap-6">
+                    <img src="assets/images/publi_02_aip.svg"
+                         alt="Publication thumbnail"
+                         class="pub-thumbnail-padded self-start">
+                    <div class="flex-1">
+                        <h4 class="text-xl font-semibold text-gray-800 mb-1">Articulation in Prime: Primitive-Based Articulated Object Understanding from a Single Casual Video</h4>
+                        <p class="text-gray-600 mb-1">A. Artykov, T. Ravaud, <strong>N. Violante</strong>, V. Lepetit</p>
+                        <p class="text-gray-600 mb-3"><em>Preprint</em></p>
+                        <div class="flex flex-wrap gap-2">
+                            <a href="https://aartykov.github.io/Articulation-in-Prime/" class="text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full hover:bg-blue-200">
+                                <i class="fas fa-globe mr-1"></i> Website
+                            </a>
+                            <button onclick="toggleAbstract(this)" class="text-sm bg-blue-100 text-blue-800 px-3 py-1 rounded-full hover:bg-blue-200">
+                                <i class="fas fa-info-circle mr-1"></i> Abstract
+                            </button>
+                        </div>
+                        <div class="abstract-content hidden mt-3">
+                            <p class="text-gray-700">
+                                We address the problem of recovering the 3D kinematics of articulated objects from a monocular video.
+                                Rather than relying on long-term point tracking or wide-baseline matching, we propose a category-agnostic
+                                optimization framework that treats articulated object understanding as a primitive-fitting problem.
+                                Geometric primitives represent parts organized via joint constraints, naturally handling partial observations
+                                and occlusions inherent to real-world data. Our method recovers complex kinematics from single casual videos
+                                and we introduce two new benchmarks, AiP-synth and AiP-real, featuring significant camera movement and heavy occlusion.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Publication 1 -->
                 <div class="publication-card bg-white p-6 rounded-lg shadow-md border border-gray-100 flex flex-col md:flex-row gap-6">
                     <img src="assets/images/publi_01_splat_and_replace.png"
